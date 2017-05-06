@@ -1,0 +1,97 @@
+
+.left{
+    float: left;
+}
+.bili{
+    width: 500px;
+
+}
+.slider {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.slider .pic{
+    padding: 0;
+    width: 2000px;
+    position: absolute;
+    left: -400px;
+}
+.slider .pic li{
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.slider .pic li img{
+    display: block;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+
+}
+.slider .pre,.slider .next{
+    width: 40px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 40px;
+    background: #000;
+    color: white;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    margin-top: -25px;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+}
+.slider .pre:hover,.slider .next:hover{
+    opacity: 0.5;
+}
+.slider .pre{
+    left: 0;
+}
+.slider .next{
+    right: 0;
+}
+.slider .point{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -70px;
+}
+.slider .point li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #287E8B;
+}
+.slider .point li.active{
+    position: relative;
+    bottom:  10px;
+    height: 20px;
+}
+.content1{
+    overflow: hidden;
+    padding-left: 20px;
+}
+.content1 h4{
+    line-height: 30px;
+    padding-left: 10px;
+}
+.container h3{
+    background: #0e90d2;
+    line-height: 40px!important;
+}
+.container h4{
+    background: #0e90d2;
+    line-height: 30px!important;
+}
+.qianduan{
+    width: 740px;
+}

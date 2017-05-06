@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+
+<div class="login">
+    <form action="">
+        <h4>登录</h4>
+        <input type="text" id="username"><br>
+        <input type="password" id="password"><br>
+        <input type="button" id="login" value="登录">
+        <input type="button" id="close" value="取消">
+    </form>
+</div>
+<div class="container">
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="./aboutUs.html">关于我们</a></li>
+                        <li><a href="./products.html">产品介绍</a></li>
+                        <li><a href="./download.html">资料下载</a></li>
+                        <li><a href="#">联系我们</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="login_1"><a href="#">登录</a></li>
+                        <li id="zhuce"><a href="./zhuce.html">注册</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        </div>
+        <div class="cl"></div>
+    <div class="data">
+        <label>今天是</label><input type="date" value="217/05/04" id="date"
+                                 autocomplete>
+        <p class="right">你是第<span  id="num"></span>个访问的人</p>
+    </div>
+    <div class="video">
+        <video src="./video/fun.mp4" controls></video>
+    </div>
+    <div class="tabs">
+        <ul class="nav nav-tabs">
+            <li id="html" role="presentation" class="active"><a href="javascript:;">html</a></li>
+            <li id="css" role="presentation" ><a href="javascript:;">css</a></li>
+            <li id="js" role="presentation"><a href="javascript:;">js</a></li>
+        </ul>
+        <div id="tab_content">超文本标记语言，标准通用标记语言下的一个应用。 “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。 超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。</div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>站点信息</li>
+            <li>意见反馈</li>
+            <li>免责声明</li>
+            <li>关于我们</li>
+            <li>文章归档</li>
+        </ul>
+        <div class="cl"></div>
+        <h5>Copyright © 2013-2017 菜鸟教程  runoob.com All Rights Reserved. 备案号：闽ICP备15012807号-1</h5>
+    </div>
+    </div>
+<script src="js/fun.js"></script>
+<script src="js/index.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>

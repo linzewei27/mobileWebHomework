@@ -1,0 +1,125 @@
+.download{
+
+}
+.download>.cl{
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+.download h3{
+    height: 40px;
+    line-height: 40px;
+    background-color: #0e90d2;
+    padding-left: 20px;
+}
+.download h4{
+    height: 30px;
+    line-height: 30px;
+    background-color: #0e90d2;
+    padding-left: 20px;
+}
+.download .dl{
+    width: 700px;
+    float: left;
+    overflow: hidden;
+}
+.download .dl button{
+    display: block;
+    margin: 0 auto;
+}
+.download .dl div.progress{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.download .img {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    float: right;
+}
+.download .img img{
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+.download table tr{
+    line-height: 20px;
+}
+.download_html table{
+
+    margin: 20px 0;
+}
+
+table tr th,table tr td{
+    text-align: center;
+    color: whitesmoke;
+}
+table tr th{
+    background-color: #287E8B;
+}
+.download_html table tr:nth-child(1){
+    background: green;
+}
+.download_html table tr:nth-child(2){
+    background: green;
+}
+.download_html table tr:nth-child(3){
+    background: green;
+}
+table tr:nth-child(1){
+    background: green;
+}
+table tr:nth-child(2){
+    background: darkgoldenrod;
+}
+table tr:nth-child(3) {
+    background: midnightblue;
+}
+ table tr:nth-child(4){
+    background: blue;
+}
+ table tr:nth-child(5){
+    background: red;
+}
+ table tr:nth-child(6){
+    background: deeppink;
+}
+ table tr:nth-child(7){
+    background: yellowgreen;
+}
+ table tr:nth-child(8){
+    background: rebeccapurple;
+}
+ table tr:nth-child(9){
+    background: orangered;
+}
+
+ /*大图片的层*/
+.bigPic{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+    background: #000;
+    z-index: 999;
+    display: none;
+}
+.bigPic .center{
+    opacity: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.bigPic .center img{
+    opacity: 1;
+}
+.bigPic .close{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    opacity: 1;
+}

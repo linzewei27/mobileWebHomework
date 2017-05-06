@@ -1,0 +1,30 @@
+h2{
+    background-color: #0e90d2;
+    height: 50px;
+    line-height: 50px;
+}
+.info h4,.news h4    {
+    color: #000;
+}
+.info img   {
+    float: left;
+}
+.news ul{
+    padding-left: 15px;
+}
+.news ul li a{
+    color: #0e90d2;
+}
+.news ul li:first-child{
+    line-height: 30px;
+    font-size: 16px;
+}
+.news ul li:last-child{
+    float: right;
+
+}
+.news h4{
+    padding-left: 15px;
+    background-color: #0e90d2;
+    line-height: 40px;
+}
