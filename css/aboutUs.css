@@ -26,5 +26,13 @@ h2{
 .news h4{
     padding-left: 15px;
     background-color: #0e90d2;
-    line-height: 40px;
+    line-height: 30px;
+}
+
+/*地图*/
+#position{
+    display: block;
+    overflow: hidden;
+    width: 360px;
+    height: 400px;
 }

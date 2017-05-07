@@ -29,7 +29,7 @@
                         <li><a href="./aboutUs.html">关于我们</a></li>
                         <li><a href="./products.html">产品介绍</a></li>
                         <li><a href="./download.html">资料下载</a></li>
-                        <li><a href="#">联系我们</a></li>
+                        <li><a href="./linkUs.html">联系我们</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li id="login_1"><a href="#">登录</a></li>
@@ -49,14 +49,73 @@
     <div class="video">
         <video src="./video/fun.mp4" controls></video>
     </div>
-    <div class="tabs">
-        <ul class="nav nav-tabs">
-            <li id="html" role="presentation" class="active"><a href="javascript:;">html</a></li>
-            <li id="css" role="presentation" ><a href="javascript:;">css</a></li>
-            <li id="js" role="presentation"><a href="javascript:;">js</a></li>
-        </ul>
-        <div id="tab_content">超文本标记语言，标准通用标记语言下的一个应用。 “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。 超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。</div>
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="active">
+            <a href="#html" data-toggle="tab">
+                html
+            </a>
+        </li>
+        <li><a href="#css" data-toggle="tab">css</a></li>
+        <li><a href="#js" data-toggle="tab">js</a></li>
+        <li class="dropdown">
+            <a href="" id="myTabDrop1" class="dropdown-toggle"
+               data-toggle="dropdown">前端库
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                <li><a href="#jquery" tabindex="-1" data-toggle="tab">jquery</a></li>
+                <li><a href="#bootstrap" tabindex="-1" data-toggle="tab">bootstrap</a></li>
+                <li><a href="#anguluar" tabindex="-1" data-toggle="tab">anguluar</a></li>
+                <li><a href="#react" tabindex="-1" data-toggle="tab">react</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="tab_content" class="tab-content">
+        <div class="tab-pane fade in active" id="html">
+            <p>超文本标记语言，标准通用标记语言下的一个应用。 “超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。 超文本标记语言的结构包括“头”部分（英语：Head）、和“主体”部分（英语：Body），其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容</p>
+        </div>
+        <div class="tab-pane fade" id="css">
+            <p>css是英文Cascading Style Sheets的缩写。它是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。</p>
+        </div>
+        <div class="tab-pane fade" id="js">
+            <p>JavaScript一种直译式脚本语言，是一种动态类型、弱类型、基于原型的语言，内置支持类型。它的解释器被称为JavaScript引擎，为浏览器的一部分，广泛用于客户端的脚本语言，最早是在HTML（标准通用标记语言下的一个应用）网页上使用，用来给HTML网页增加动态功能。</p>
+        </div>
+        <div class="tab-pane fade" id="jquery">
+            <p>jQuery是一个快速、简洁的JavaScript框架，是继Prototype之后又一个优秀的JavaScript代码库（或JavaScript框架）。jQuery设计的宗旨是“write Less，Do More”，即倡导写更少的代码，做更多的事情。它封装JavaScript常用的功能代码，提供一种简便的JavaScript设计模式，优化HTML文档操作、事件处理、动画设计和Ajax交互。</p>
+        </div>
+        <div class="tab-pane fade" id="bootstrap">
+            <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。  它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目，包括NASA的MSNBC（微软全国广播公司）的Breaking News都使用了该项目。 国内一些移动开发者较为熟悉的框架，如WeX5前端开源框架等，也是基于Bootstrap源码进行性能优化而来。
+            </p>
+        </div>
+        <div class="tab-pane fade" id="anguluar">
+            <p>AngularJS 诞生于2009年，由Misko Hevery 等人创建，后为Google所收购。是一款优秀的前端JS框架，已经被用于Google的多款产品当中。AngularJS有着诸多特性，最为核心的是：MVC、模块化、自动化双向数据绑定、语义化标签、依赖注入等等。
+            </p>
+        </div>
+        <div class="tab-pane fade" id="react">
+            <p>React 是一个用于构建用户界面的 JAVASCRIPT 库。
+                React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。
+                React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。
+                React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。
+            </p>
+        </div>
     </div>
+
+    <!--<div class="tabs">-->
+        <!--<ul class="nav nav-tabs nav-pills">-->
+
+            <!--<li class="dropdown">-->
+                <!--<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">前端库 <span class="caret"></span></a>-->
+                <!--<ul class="dropdown-menu">-->
+                    <!--<li><a href="#">jquery</a></li>-->
+                    <!--<li><a href="#">bootstrap</a></li>-->
+                    <!--<li><a href="#">angularJs</a></li>-->
+                    <!--<li><a href="#">react</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+
+        <!--</ul>-->
+        <!--<div id="tab_content"></div>-->
+    <!--</div>-->
     <div class="footer">
         <ul>
             <li>站点信息</li>
@@ -69,6 +128,8 @@
         <h5>Copyright © 2013-2017 菜鸟教程  runoob.com All Rights Reserved. 备案号：闽ICP备15012807号-1</h5>
     </div>
     </div>
+<script src="jquery/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/fun.js"></script>
 <script src="js/index.js"></script>
 <script src="js/base.js"></script>

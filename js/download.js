@@ -2,6 +2,7 @@
  * Created by 89418 on 2017/5/6.
  */
 (function () {
+    init();
     var  down= document.querySelectorAll(".dl");
     var img = document.querySelectorAll(".img");
     var bigPic = document.querySelector(".bigPic");

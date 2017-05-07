@@ -2,6 +2,7 @@
  * Created by 89418 on 2017/5/5.
  */
 (function(){
+    init();
     var can = document.querySelector("canvas");
     can.width = 400;
     can.height = 400;
